@@ -1,0 +1,62 @@
+
+/*
+image{
+    display: flex;
+}
+
+
+*/
+
+
+.floor{
+    fill: rgba(0, 0, 255, 0);
+    stroke: rgba(127, 255, 212, 0);
+}
+.floor:hover{
+    fill: rgba(0, 255, 34, 0.552);
+    stroke: rgba(127, 255, 212, 0);
+    cursor: pointer;
+    
+}
+
+.bottom .floor:hover{
+    fill: rgba(140, 122, 255, 0.264);
+    stroke: rgba(127, 255, 212, 0);
+    cursor: pointer;
+    
+}
+.top .floor:hover{
+    fill: rgba(113, 255, 108, 0.259);
+    stroke: rgba(127, 255, 212, 0);
+    cursor: pointer;
+    
+}
+.house{
+    display: flex;
+    align-items: flex-start;
+}
+.house-info{
+    width: 350px;
+    border: 1px solid ;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 70px 70px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row h5{
+    margin: 0;
+}
+
+#floor, #rooms{
+    border: 1px solid #000;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
